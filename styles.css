@@ -8,21 +8,30 @@ random {}
 
 .menu {
     /* background-color: red; */
-    background-color: rgba(24, 24, 24, 0.802);
+    background-color: rgba(24, 24, 24, 0.922);
     /* border: 0%;
     padding: 0%;
     margin: 0; */
 }
-.menu a{
+.nav-item a{
     /* background-color: red; */
-  color: aliceblue;
-    /* border: 0%;
-    padding: 0%;
-    margin: 0; */
+  border-bottom: 0px solid rgba(24, 24, 24, 0);
+    margin: 5px 5px;
+    background-color:  rgba(24, 24, 24, 0);
+    
+    transition: margin-bottom .3s ease-in-out;
+    transition: border-bottom .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+.nav-item a:hover{
+    background-color: rgba(24, 24, 24, 0.762); 
+  border-bottom: 4px solid #198754;
+  border-radius: 5px;
+  margin-bottom:1px;
 }
 
 .logo {
-    background-color: rgba(255, 255, 255, 0.000);
+    color: aliceblue;
 }
 
 .navbar {
@@ -30,3 +39,6 @@ random {}
 }
 
 .title {}
+a{
+    color: aliceblue;
+}
